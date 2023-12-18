@@ -94,19 +94,19 @@ export default function Footer() {
             <p className='text-sm py-[16px]'>Send us your message</p>
             <p className='text-sm py-[16px]'>Email Us</p>
           </div>
-          <div className='w-full h-[410px]'>
+          <div className='w-full h-[410px] flex flex-col'>
             <p className='text-sm py-[16px]'>FOLLOW US</p>
-            <div className='grid grid-cols-2 grid-row-2 '>
-              <div className='bg-gray-200 rounded-full flex justify-center items-center'>
+            <div className='grid grid-cols-2 grid-row-2 gap-4'>
+              <div className='w-[36px] h-[36px] bg-gray-200 rounded-full flex justify-center items-center'>
                 <div className='w-[22px] h-[18px] bg-[url("https://img.y8.com/assets/svg/twitter-40437c6680e014b927c22e09bae7da5f3317948f71fae4e5daee25eb20c63176.svg")]'></div>
               </div>
-              <div className='bg-gray-200 rounded-full flex justify-center items-center'>
+              <div className='w-[36px] h-[36px] bg-gray-200 rounded-full flex justify-center items-center'>
                 <div className='w-[20px] h-[20px] bg-[url("https://img.y8.com/assets/svg/facebook-807ac7b9c731fd2695350e3c8bf65954582dfeacf87bd8a73ab38e0153543daf.svg")]'></div>
               </div>
-              <div className='bg-gray-200 rounded-full flex justify-center items-center'>
+              <div className='w-[36px] h-[36px] bg-gray-200 rounded-full flex justify-center items-center'>
                 <div className='w-[20px] h-[20px] bg-[url("https://img.y8.com/assets/svg/instagram-270989005465900b957b5c234169591ea33e43d5f12a3fd7131f486cf6577cfc.svg")]'></div>
               </div>
-              <div className='bg-gray-200 rounded-full flex justify-center items-center'>
+              <div className='w-[36px] h-[36px] bg-gray-200 rounded-full flex justify-center items-center'>
                 <div className='w-[18px] h-[14px] bg-[url("https://img.y8.com/assets/svg/discord-5fbfb24610991c5e17e89bc628ce593d2f4cfa61b1aa2d12ba7e318728caf974.svg")]'></div>
               </div>
             </div>
