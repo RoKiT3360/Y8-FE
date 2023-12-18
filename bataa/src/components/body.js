@@ -9,8 +9,8 @@ export default function Body() {
     return(
         <div className="2xl:w-4/6 w-full h-[1000px] bg-gray-100">
             <div className="w-full h-1/5 flex flex-col">
-                <div className="flex text-white gap-4 bg-white">
-                    <div className="flex text-white gap-4 bg-white">
+                <div className="flex-col h-4/5 sm:flex text-white gap-4 bg-white rounded">
+                    <div className="flex h-1/2 text-white gap-4 bg-white items-center justify-center">
                     <button className="bg-green-500 py-2 px-4 rounded-xl text-white font-bold gap-2 flex items-center justify-around"><FontAwesomeIcon icon={faChessKnight} /> Strategy & RPG</button>
                     <button className="bg-fuchsia-500 py-2 px-4 rounded-xl text-white font-bold gap-2 flex items-center justify-around"><FontAwesomeIcon icon={faSoccerBall} />Sports</button>
                     <button className="bg-fuchsia-500 py-2 px-4 rounded-xl text-white font-bold gap-2 flex items-center justify-around"><FontAwesomeIcon icon={faFontAwesomeFlag} /> Driving</button>
@@ -19,6 +19,10 @@ export default function Body() {
                     <button className="bg-fuchsia-500 py-2 px-4 rounded-xl text-white font-bold gap-2 flex items-center justify-around"><FontAwesomeIcon icon={faSoccerBall} />Sports</button>
                     <button className="bg-fuchsia-500 py-2 px-4 rounded-xl text-white font-bold gap-2 flex items-center justify-around"><FontAwesomeIcon icon={faFontAwesomeFlag} /> Driving</button>
                     <button className="bg-fuchsia-500 py-2 px-4 rounded-xl text-white font-bold gap-2 flex items-center justify-around"><FontAwesomeIcon icon={faPlayCircle} />Sports</button>
+                    <button className="bg-gray-100 rounded py-2 px-4 text-black">All categories</button>
+                    </div>
+                    <div className="flex w-full">
+
                     </div>
                 </div>
                 <div className="flex"></div>

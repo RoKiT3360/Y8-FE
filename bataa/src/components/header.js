@@ -1,4 +1,8 @@
-import React from "react";
+import { render } from "react-dom";
+import { faHome, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChessKnight, faFlag, faPlayCircle, faSoccerBall } from "@fortawesome/free-regular-svg-icons";
+import { faFontAwesomeFlag } from "@fortawesome/free-brands-svg-icons";
 
 export default function Header() {
     return(
@@ -11,9 +15,10 @@ export default function Header() {
                     <a href="./" className="sm:w-full w-0 h-0 sm:h-1/2 flex justify-center items-center text-red-500 bg-gray-800 p-1 rounded-md">Games</a>
                     <a href="./" className="sm:w-full w-0 h-0 sm:h-1/2 flex justify-center items-center opacity-70 hover:opacity-100">Videos</a> 
                 </div>
-                <div className="h-11 text-sm md:text-md lg-text-lg">
-                    <input placeholder="Search our 90,000 Games" className="bg-gray-100 h-full p-4 rounded flex"></input>
-                    
+                <div className="h-11 text-sm md:text-md lg:text-lg w-[300px]">
+                    <input placeholder="Search our 90,000 Games" className="bg-gray-100 h-full w-full rounded flex">
+                        
+                    </input>
                 </div>
                 <div></div>
             </div>
