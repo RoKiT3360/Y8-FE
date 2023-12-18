@@ -11,17 +11,17 @@ import { faFontAwesomeFlag } from "@fortawesome/free-brands-svg-icons";
 
 export default function Header() {
   return (
-    <div className="w-full h-[52px] bg-white flex sticky top-0 justify-center">
+    <div className="w-full h-[52px] bg-white flex sticky top-0 justify-center z-10">
       <div className="w-[360px] h-full flex items-center gap-5 justify-between">
-        <div className="w-[20px] h-[17px] flex">
+        <div className="w-[70px] h-[17px] flex">
           <div className="w-[20px] h-[17px] flex flex-col gap-1">
             <div className="w-full h-[2px] bg-gray-400 rounded"></div>
             <div className="w-full h-[2px] bg-gray-400 rounded"></div>
             <div className="w-full h-[2px] bg-gray-400 rounded"></div>
           </div>
           <div className="flex w-full bg-white">
-            <div className="w-[40%] flex flex-col">
-              <div className="w-16 h-11 hidden lg:flex flex flex-col rounded-lg bg-gray-200 text-black justify-center items-center text-sm">
+            <div className="w-[40%] flex flex-col relative h-[278px]">
+              <div className="w-16 h-11 lg:hidden flex flex-col rounded-lg bg-gray-200 text-black justify-center items-center text-sm">
                 <a
                   href="./"
                   className="sm:w-full w-0 h-0 sm:h-1/2 flex justify-center items-center text-red-500 bg-gray-800 p-1 rounded-md"
@@ -35,7 +35,11 @@ export default function Header() {
                   Videos
                 </a>
               </div>
-              <div className=""></div>
+              <div className="flex flex-col">
+                <button className="rounded cursor-pointer hover:text-red-500 absolute px-5 py-2 bg-gray-100 text-sm">New Games</button>
+                <button className="rounded cursor-pointer hover:text-red-500 absolute px-5 py-2 bg-gray-100 text-sm">Popular Games</button>
+                <button className="rounded cursor-pointer hover:text-red-500 absolute px-5 py-2 bg-gray-100 text-sm">Best Games</button>
+              </div>
             </div>
           </div>
         </div>
